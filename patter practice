@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+
+int main (){
+
+    int n ; 
+    cout << " enter an given  n number" << endl;
+    cin >> n;
+
+    for (int row = 0; row < n; row++)
+    {
+         for (int  col = 0; col < n; col++)
+         {
+            if (row == 0 || row == 5){
+                cout << "*";
+            }
+            else{
+                if (col == 0 || col ==5){
+                    cout <<"*";
+                }
+                else{
+                    cout <<" ";
+                }
+            }
+            
+         }
+         
+      cout << endl;
+    }
+    
+}
