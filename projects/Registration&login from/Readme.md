@@ -7,7 +7,7 @@ This project is basically a User Athentication system in C++, there has several 
 
 - Allow user create their database by their Username, emialId, Password.Along with that it creates a Text file where all the data store.
 - Existing User can login by their emialId, and Password
--  
+
 
 
 
